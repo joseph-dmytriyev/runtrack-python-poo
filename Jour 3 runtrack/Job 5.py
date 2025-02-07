@@ -27,7 +27,7 @@ class Jeu:
                 else:
                     print("Veuillez choisir un niveau valide (1, 2 ou 3).")
             except ValueError:
-                print("Bouge pas je vaiq t'acheter des lunettes.")
+                print("Bouge pas je vais t'acheter des lunettes.")
 
     def lancer_jeu(self):
         if self.niveau == 1:
